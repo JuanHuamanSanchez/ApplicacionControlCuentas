@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ApplicacionControlCuentas"
         tools:targetApi="31">
         <activity
+            android:name=".Cuentasagregar"
+            android:exported="false" />
+        <activity
+            android:name=".Cuentas"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
